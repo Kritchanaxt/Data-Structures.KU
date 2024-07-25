@@ -1,6 +1,6 @@
 # Data-Structures
 
-### Linked List
+## Linked List
 
 **1. Singly Linked List**
 Singly Linked List เป็น Linked List พื้นฐานที่สุด แต่ละโหนดมีพอยน์เตอร์ที่ชี้ไปยังโหนดถัดไปเท่านั้น
