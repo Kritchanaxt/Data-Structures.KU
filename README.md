@@ -5,7 +5,7 @@
 
 **การประกาศอาร์เรย์:**
 
-*data_type array_name[array_size];*
+### data_type array_name[array_size];
 - data_type: ชนิดข้อมูลของสมาชิกในอาร์เรย์ (เช่น int, float, char เป็นต้น)
 - array_name: ชื่อของอาร์เรย์
 - array_size: ขนาดของอาร์เรย์ (จำนวนสมาชิกที่ต้องการเก็บ)
