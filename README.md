@@ -36,7 +36,8 @@
 - isEmpty: ตรวจสอบว่า stack ว่างหรือไม่
   
 
-<img width="500" alt="Stack1" src="https://github.com/user-attachments/assets/7824c5ec-c513-465b-8129-2a7cecc7eaa4">  <img width="500"  alt="Stack2" src="https://github.com/user-attachments/assets/e851c382-a3a9-443d-adaf-0bdd3f963a5d">
+<img width="1000" alt="Stack1" src="https://github.com/user-attachments/assets/7824c5ec-c513-465b-8129-2a7cecc7eaa4">  
+<img width="1000"  alt="Stack2" src="https://github.com/user-attachments/assets/e851c382-a3a9-443d-adaf-0bdd3f963a5d">
 
 **กรณีการใช้งาน Stack:**
 - การจัดการการเรียกฟังก์ชัน (recursion)
