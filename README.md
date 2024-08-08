@@ -8,10 +8,10 @@
 
 ### การประกาศ Array 
 >  ***data_type array_name[array_size];***
-- เช่น int numbers[5];
 - data_type: ชนิดข้อมูลของสมาชิกในอาร์เรย์ (เช่น int, float, char เป็นต้น)
 - array_name: ชื่อของอาร์เรย์
 - array_size: ขนาดของอาร์เรย์ (จำนวนสมาชิกที่ต้องการเก็บ)
+- ##### เช่น int numbers[5];
 
 ### 2 Dimensional Array 
 <img width="1000" alt="Array1" src="https://github.com/user-attachments/assets/a0462539-d61f-4cb3-995e-d9c33f178b3a">  
@@ -35,6 +35,13 @@
 
 ## Linked List
 - **Linked List** คือโครงสร้างข้อมูลเชิงเส้นที่ใช้ในการจัดเก็บชุดของข้อมูลซึ่งองค์ประกอบแต่ละตัวจะเชื่อมต่อกันโดยการอ้างอิง (pointer) ในแต่ละองค์ประกอบของลิงก์ลิสต์จะมีสองส่วนหลัก คือ ข้อมูล (data) และตัวชี้ (pointer) ที่เชื่อมโยงไปยังองค์ประกอบถัดไปในลิสต์
+
+<img width="1000" alt="linklist" src="https://media.geeksforgeeks.org/wp-content/uploads/20220712172013/Singlelinkedlist.png
+">
+ https://media.geeksforgeeks.org/wp-content/uploads/20220712172013/Singlelinkedlist.png
+
+#### next: ใช้ในการเชื่อมต่อ node แต่ละตัวใน Linked List เข้าด้วยกัน
+#### start: เป็นจุดเริ่มต้นของ Linked List และใช้ในการเข้าถึง node ตัวแรก
 
 ### 1. Singly Linked List
 - Singly Linked List เป็น Linked List พื้นฐานที่สุด แต่ละโหนดมีพอยน์เตอร์ที่ชี้ไปยังโหนดถัดไปเท่านั้น
