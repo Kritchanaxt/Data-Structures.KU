@@ -84,13 +84,13 @@
 ## Queue
 **Queue** คือโครงสร้างข้อมูลพื้นฐานที่ทำงานบนหลักการ "เข้าก่อนออกก่อน" (First-In-First-Out, FIFO) หมายถึงข้อมูลที่ถูกเพิ่มเข้าไปในคิวก่อนจะถูกนำออกมาก่อน
 
-<img width="500"  alt="Queue1" src="https://github.com/user-attachments/assets/3a1865c3-f5df-4e3f-a46b-9cb0e52ce0c6"> <img width="500"  alt="Queue2" src="https://github.com/user-attachments/assets/a6bf85d8-2f0f-4713-8d0e-bc5edcc856e9">
+<img width="1000"  alt="Queue1" src="https://github.com/user-attachments/assets/3a1865c3-f5df-4e3f-a46b-9cb0e52ce0c6"> 
 
 #### การใช้งาน Queue
 - Enqueue (เพิ่มข้อมูล): เพิ่มข้อมูลใหม่ที่ปลายคิว
 - Dequeue (นำข้อมูลออก): นำข้อมูลจากหัวคิวออก
 - Display: แสดงข้อมูลทั้งหมดในคิว
 
-
+<img width="500"  alt="Queue2" src="https://github.com/user-attachments/assets/a6bf85d8-2f0f-4713-8d0e-bc5edcc856e9">
 
 
