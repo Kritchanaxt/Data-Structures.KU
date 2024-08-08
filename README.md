@@ -38,8 +38,8 @@
 
 <img width="1000" alt="linklist" src="https://media.geeksforgeeks.org/wp-content/uploads/20220712172013/Singlelinkedlist.png">
 
-#### next: ใช้ในการเชื่อมต่อ node แต่ละตัวใน Linked List เข้าด้วยกัน
-#### start: เป็นจุดเริ่มต้นของ Linked List และใช้ในการเข้าถึง node ตัวแรก
+- **Next:** ใช้ในการเชื่อมต่อ node แต่ละตัวใน Linked List เข้าด้วยกัน
+- **Head/Start:** เป็นจุดเริ่มต้นของ Linked List และใช้ในการเข้าถึง node ตัวแรก
 
 ### 1. Singly Linked List
 - Singly Linked List เป็น Linked List พื้นฐานที่สุด แต่ละโหนดมีพอยน์เตอร์ที่ชี้ไปยังโหนดถัดไปเท่านั้น
