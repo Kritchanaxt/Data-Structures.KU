@@ -4,11 +4,16 @@
 ## Array 
 **Array** เป็นโครงสร้างข้อมูลพื้นฐานในภาษา C ที่ใช้ในการจัดเก็บชุดของข้อมูลประเภทเดียวกันในตำแหน่งที่ต่อเนื่องกันในหน่วยความจำ โดยการเข้าถึงข้อมูลในอาเรย์สามารถทำได้โดยใช้ดัชนี (index)
 
+<img width="1000" alt="Array1" src="https://github.com/user-attachments/assets/21e2ec50-7ebc-4384-8e31-9910f5834381">  
+
 ### การประกาศ Array 
 >  ***data_type array_name[array_size];***
 - data_type: ชนิดข้อมูลของสมาชิกในอาร์เรย์ (เช่น int, float, char เป็นต้น)
 - array_name: ชื่อของอาร์เรย์
 - array_size: ขนาดของอาร์เรย์ (จำนวนสมาชิกที่ต้องการเก็บ)
+
+## 2 Dimensional Array 
+<img width="1000" alt="Array1" src="https://github.com/user-attachments/assets/a0462539-d61f-4cb3-995e-d9c33f178b3a">  
 
 ### การใช้งาน Array 
 - การเข้าถึงสมาชิก: สามารถใช้ดัชนี (index) เพื่อเข้าถึงสมาชิกในอาร์เรย์ เช่น array[index]
@@ -78,8 +83,10 @@
 ## Queue
 **Queue** คือโครงสร้างข้อมูลพื้นฐานที่ทำงานบนหลักการ "เข้าก่อนออกก่อน" (First-In-First-Out, FIFO) หมายถึงข้อมูลที่ถูกเพิ่มเข้าไปในคิวก่อนจะถูกนำออกมาก่อน
 
-โครงสร้างของ Queue ในภาษา C
-เพื่อสร้าง Queue ในภาษา C เรามักจะใช้ Linked List หรือ Array ในตัวอย่างนี้เราจะใช้ Linked List เพื่อความยืดหยุ่น
+#### การใช้งาน Queue
+- Enqueue (เพิ่มข้อมูล): เพิ่มข้อมูลใหม่ที่ปลายคิว
+- Dequeue (นำข้อมูลออก): นำข้อมูลจากหัวคิวออก
+- Display: แสดงข้อมูลทั้งหมดในคิว
 
 <img width="1000"  alt="Queue1" src="https://github.com/user-attachments/assets/3a1865c3-f5df-4e3f-a46b-9cb0e52ce0c6">
 <img width="1000"  alt="Queue1" src="https://github.com/user-attachments/assets/a6bf85d8-2f0f-4713-8d0e-bc5edcc856e9">
