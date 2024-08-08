@@ -8,7 +8,7 @@
 
 ### การประกาศ Array 
 >  ***data_type array_name[array_size];***
-int numbers[5];
+- เช่น int numbers[5];
 - data_type: ชนิดข้อมูลของสมาชิกในอาร์เรย์ (เช่น int, float, char เป็นต้น)
 - array_name: ชื่อของอาร์เรย์
 - array_size: ขนาดของอาร์เรย์ (จำนวนสมาชิกที่ต้องการเก็บ)
