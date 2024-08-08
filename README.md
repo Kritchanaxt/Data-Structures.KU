@@ -12,7 +12,7 @@
 - array_name: ชื่อของอาร์เรย์
 - array_size: ขนาดของอาร์เรย์ (จำนวนสมาชิกที่ต้องการเก็บ)
 
-## 2 Dimensional Array 
+### 2 Dimensional Array 
 <img width="1000" alt="Array1" src="https://github.com/user-attachments/assets/a0462539-d61f-4cb3-995e-d9c33f178b3a">  
 
 ### การใช้งาน Array 
