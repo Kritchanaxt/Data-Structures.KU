@@ -81,4 +81,8 @@
 โครงสร้างของ Queue ในภาษา C
 เพื่อสร้าง Queue ในภาษา C เรามักจะใช้ Linked List หรือ Array ในตัวอย่างนี้เราจะใช้ Linked List เพื่อความยืดหยุ่น
 
+<img width="1000"  alt="Queue1" src="https://github.com/user-attachments/assets/3a1865c3-f5df-4e3f-a46b-9cb0e52ce0c6">
+<img width="1000"  alt="Queue1" src="https://github.com/user-attachments/assets/a6bf85d8-2f0f-4713-8d0e-bc5edcc856e9">
+
+
 
