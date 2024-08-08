@@ -36,9 +36,7 @@
 ## Linked List
 - **Linked List** คือโครงสร้างข้อมูลเชิงเส้นที่ใช้ในการจัดเก็บชุดของข้อมูลซึ่งองค์ประกอบแต่ละตัวจะเชื่อมต่อกันโดยการอ้างอิง (pointer) ในแต่ละองค์ประกอบของลิงก์ลิสต์จะมีสองส่วนหลัก คือ ข้อมูล (data) และตัวชี้ (pointer) ที่เชื่อมโยงไปยังองค์ประกอบถัดไปในลิสต์
 
-<img width="1000" alt="linklist" src="https://media.geeksforgeeks.org/wp-content/uploads/20220712172013/Singlelinkedlist.png
-">
- https://media.geeksforgeeks.org/wp-content/uploads/20220712172013/Singlelinkedlist.png
+<img width="1000" alt="linklist" src="https://media.geeksforgeeks.org/wp-content/uploads/20220712172013/Singlelinkedlist.png">
 
 #### next: ใช้ในการเชื่อมต่อ node แต่ละตัวใน Linked List เข้าด้วยกัน
 #### start: เป็นจุดเริ่มต้นของ Linked List และใช้ในการเข้าถึง node ตัวแรก
@@ -73,14 +71,15 @@
 ## Stack
 - **Stack** คือโครงสร้างข้อมูลเชิงเส้นที่ทำงานตามหลักการ Last In, First Out (LIFO) หมายความว่าองค์ประกอบที่ถูกเพิ่มเข้ามาเป็นองค์ประกอบสุดท้ายจะถูกนำออกเป็นองค์ประกอบแรก สามารถนึกภาพได้ว่าเหมือนกับกองจานที่เราสามารถเพิ่มหรือเอาจานออกจากด้านบนสุดเท่านั้น
 
-<img width="500" alt="Stack1" src="https://github.com/user-attachments/assets/7824c5ec-c513-465b-8129-2a7cecc7eaa4"> <img width="500"  alt="Stack2" src="https://github.com/user-attachments/assets/e851c382-a3a9-443d-adaf-0bdd3f963a5d">
-
+<img width="1000" alt="Stack1" src="https://github.com/user-attachments/assets/7824c5ec-c513-465b-8129-2a7cecc7eaa4"> 
 
 ### การดำเนินการหลักของ Stack
 - Push: เพิ่มองค์ประกอบไปที่ด้านบนสุดของ stack
 - Pop: นำองค์ประกอบออกจากด้านบนสุดของ stack
 - Peek: ดูองค์ประกอบที่อยู่ด้านบนสุดของ stack โดยไม่ต้องนำออก
 - isEmpty: ตรวจสอบว่า stack ว่างหรือไม่
+
+<img width="1000"  alt="Stack2" src="https://github.com/user-attachments/assets/e851c382-a3a9-443d-adaf-0bdd3f963a5d">
   
 ### กรณีการใช้งาน Stack
 - การจัดการการเรียกฟังก์ชัน (recursion)
