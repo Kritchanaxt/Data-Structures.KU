@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// โครงสร้างโหนดในลิงก์ลิสต์แบบง่าย
+// Structure of a node in a simple linked list
 struct Node {
-    int data;           // ข้อมูลที่จัดเก็บ
-    struct Node* next; // ตัวชี้ไปยังโหนดถัดไป
+    int data;           // Data stored in the node
+    struct Node* next; // Pointer to the next node
 };
+

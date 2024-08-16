@@ -72,14 +72,14 @@ int main() {
     push(&stack, 30);
 
     printf("Stack elements: ");
-    printStack(&stack); // Output: 30 20 10 
+    printStack(&stack); 
 
-    printf("Top element: %d\n", peek(&stack)); // Output: 30
+    printf("Top element: %d\n", peek(&stack)); 
 
-    printf("Popped element: %d\n", pop(&stack)); // Output: 30
+    printf("Popped element: %d\n", pop(&stack)); 
 
     printf("Stack elements after pop: ");
-    printStack(&stack); // Output: 20 10 
+    printStack(&stack); 
 
     return 0;
 }

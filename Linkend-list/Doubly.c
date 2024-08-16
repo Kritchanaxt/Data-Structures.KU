@@ -48,7 +48,7 @@ int main() {
     insertAtBeginning(&head, 10);
     insertAtBeginning(&head, 20);
     insertAtBeginning(&head, 30);
-    printList(head); // Output: 30 <-> 20 <-> 10 <-> NULL
+    printList(head); 
 
     return 0;
 }

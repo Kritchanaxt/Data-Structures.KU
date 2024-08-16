@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// โครงสร้างโหนดในลิงก์ลิสต์แบบวงกลมและสองทิศทาง
+// Structure of a node in a circular doubly linked list
 struct Node {
-    int data;           // ข้อมูลที่จัดเก็บ
-    struct Node* next; // ตัวชี้ไปยังโหนดถัดไป
-    struct Node* prev; // ตัวชี้ไปยังโหนดก่อนหน้า
+    int data;           // Data stored in the node
+    struct Node* next; // Pointer to the next node
+    struct Node* prev; // Pointer to the previous node
 };

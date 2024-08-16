@@ -40,10 +40,10 @@ int main() {
     struct Node* head = NULL;
 
     // Insert elements
-    insertAtBeginning(&head, 10);
-    insertAtBeginning(&head, 20);
     insertAtBeginning(&head, 30);
-    printList(head); // Output: 30 -> 20 -> 10 -> NULL
+    insertAtBeginning(&head, 20);
+    insertAtBeginning(&head, 10);
+    printList(head); 
 
     return 0;
 }

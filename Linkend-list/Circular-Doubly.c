@@ -53,7 +53,7 @@ int main() {
     insertAtEnd(&head, 10);
     insertAtEnd(&head, 20);
     insertAtEnd(&head, 30);
-    printList(head); // Output: 10 <-> 20 <-> 30 <-> (head)
+    printList(head); 
 
     return 0;
 }
