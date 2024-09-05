@@ -120,7 +120,6 @@
 ![Treedatastructure](https://github.com/user-attachments/assets/23c5fa76-00fe-41b4-959b-72b3c52d6d46)
 ![typoes1-768](https://github.com/user-attachments/assets/86d46646-4e75-4cb8-b82a-e18652df0790)
 ![Figure-5 2 7 -Linked-representation-for-the-binary-tree](https://github.com/user-attachments/assets/d50f25a1-c57f-426f-9c5d-f025d0c12bae)
-![Figure-5 2 7 -Linked-representation-for-the-binary-tree](https://github.com/user-attachments/assets/8782c9f0-e9a9-4c12-b788-cc5db612b4c4)
 
 ### โครงสร้างข้อมูลแบบลำดับชั้น (Hierarchical Structure)
 - ประกอบด้วยโหนด (Node) ที่มีการเชื่อมโยงกันในรูปแบบต้นไม้.
