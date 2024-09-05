@@ -115,3 +115,30 @@
 - **การจัดการกับการสื่อสารข้อมูล:** การส่งข้อมูลผ่านเครือข่าย ที่ข้อมูลจะถูกจัดเก็บในคิวก่อนการส่งต่อไปยังปลายทาง
 - **การจัดการเหตุการณ์ในเกม:** การจัดการกับเหตุการณ์ที่เกิดขึ้นในเกมตามลำดับ
 
+## Trees
+
+![Treedatastructure](https://github.com/user-attachments/assets/23c5fa76-00fe-41b4-959b-72b3c52d6d46)
+![typoes1-768](https://github.com/user-attachments/assets/86d46646-4e75-4cb8-b82a-e18652df0790)
+![Figure-5 2 7 -Linked-representation-for-the-binary-tree](https://github.com/user-attachments/assets/d50f25a1-c57f-426f-9c5d-f025d0c12bae)
+![Figure-5 2 7 -Linked-representation-for-the-binary-tree](https://github.com/user-attachments/assets/8782c9f0-e9a9-4c12-b788-cc5db612b4c4)
+
+### โครงสร้างข้อมูลแบบลำดับชั้น (Hierarchical Structure)
+- ประกอบด้วยโหนด (Node) ที่มีการเชื่อมโยงกันในรูปแบบต้นไม้.
+- โหนดมีโหนดราก (Root Node) และลูกโหนด (Child Nodes).
+
+### Binary Tree:
+- ต้นไม้ที่แต่ละโหนดมีลูกได้ไม่เกิน 2 โหนด.
+- มีโหนดซ้าย (Left Child) และโหนดขวา (Right Child).
+
+### Binary Search Tree (BST):
+- ต้นไม้ที่ข้อมูลในโหนดซ้ายจะน้อยกว่าโหนดปัจจุบัน และข้อมูลในโหนดขวาจะมากกว่าโหนดปัจจุบัน.
+- ทำให้การค้นหา แทรก หรือ ลบข้อมูลมีประสิทธิภาพ O(log n) ในกรณีทั่วไป.
+
+### Traversal Methods:
+- Inorder Traversal: เรียงลำดับข้อมูลจากน้อยไปมาก (ซ้าย-ราก-ขวา).
+- Preorder Traversal: เริ่มจากรากไปซ้ายแล้วขวา (ราก-ซ้าย-ขวา).
+- Postorder Traversal: เริ่มจากซ้ายไปขวาแล้วราก (ซ้าย-ขวา-ราก).
+
+### การใช้งาน:
+- การเพิ่ม (Insertion), การค้นหา (Search), และการลบข้อมูล (Deletion) ทำได้อย่างมีประสิทธิภาพในโครงสร้าง Binary Search Tree.
+
