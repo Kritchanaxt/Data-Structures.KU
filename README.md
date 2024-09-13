@@ -136,8 +136,7 @@
 - Subtree (ต้นไม้ย่อย): ต้นไม้ที่เกิดจากโหนดย่อยในต้นไม้หลัก.
 
 ### Binary Tree:
-
-![Figure-5 2 7 -Linked-representation-for-the-binary-tree](https://github.com/user-attachments/assets/d50f25a1-c57f-426f-9c5d-f025d0c12bae)
+<img width="1000" alt="BT" src="https://github.com/user-attachments/assets/d50f25a1-c57f-426f-9c5d-f025d0c12bae">  
 
 - เป็นต้นไม้ที่แต่ละโหนดมีลูกได้ไม่เกิน 2 โหนด คือ โหนดซ้าย (Left Child) และโหนดขวา (Right Child).
 - โครงสร้างนี้ทำให้การค้นหาหรือการทำงานกับข้อมูลง่ายขึ้นเพราะมีลำดับชั้นชัดเจน.
@@ -159,7 +158,7 @@
 
 #### การหมุน (Rotations) ใน AVL Tree:
 
-<img width="1000" alt="Rotations" src="https://upload.wikimedia.org/wikipedia/commons/3/31/Tree_rotation_animation_250x250.gif">  
+<img width="500" alt="Rotations" src="https://upload.wikimedia.org/wikipedia/commons/3/31/Tree_rotation_animation_250x250.gif">  
 
 - Left Rotation: ใช้เมื่อต้นไม้หนักทางด้านขวา (Balance Factor < -1).
 - Right Rotation: ใช้เมื่อต้นไม้หนักทางด้านซ้าย (Balance Factor > 1).
@@ -169,13 +168,13 @@
 ### วิธีการ Traversal:
 
 1. Inorder Traversal: เรียงลำดับข้อมูลจากน้อยไปมาก โดยเรียงจากซ้าย ราก ขวา (Left-Root-Right).
-<img width="1000" alt="Inorder" src="https://miro.medium.com/v2/resize:fit:960/format:webp/1*nvZSw3M2Uq3EXOsc8Kd2Sw.gif">  
+<img width="500" alt="Inorder" src="https://miro.medium.com/v2/resize:fit:960/format:webp/1*nvZSw3M2Uq3EXOsc8Kd2Sw.gif">  
 
 2. Preorder Traversal: เรียงลำดับโดยเริ่มจากรากก่อน ตามด้วยซ้ายและขวา (Root-Left-Right).
-<img width="1000" alt="Preorder" src="https://miro.medium.com/v2/resize:fit:960/1*Swjb2CWGQh55r9m7jEyg1Q.gif"> 
+<img width="500" alt="Preorder" src="https://miro.medium.com/v2/resize:fit:960/1*Swjb2CWGQh55r9m7jEyg1Q.gif"> 
 
 3. Postorder Traversal: เรียงลำดับจากซ้ายไปขวาแล้วจบที่ราก (Left-Right-Root).
-<img width="1000" alt="Postorder" src="https://miro.medium.com/v2/resize:fit:960/format:webp/1*4KpXD6en9pbN2mgbq4XraA.gif"> 
+<img width="500" alt="Postorder" src="https://miro.medium.com/v2/resize:fit:960/format:webp/1*4KpXD6en9pbN2mgbq4XraA.gif"> 
 
 ### การใช้งาน:
 - Insertion: การเพิ่มข้อมูลใหม่ลงในต้นไม้ทำได้รวดเร็วและมีประสิทธิภาพ.
