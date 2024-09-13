@@ -149,9 +149,15 @@
 - Right-Left Rotation: ใช้เมื่อต้นไม้หนักทางขวาของลูกโหนดขวา (สองระดับ).
 
 ### วิธีการ Traversal:
-- Inorder Traversal: เรียงลำดับข้อมูลจากน้อยไปมาก โดยเรียงจากซ้าย ราก ขวา (Left-Root-Right).
-- Preorder Traversal: เรียงลำดับโดยเริ่มจากรากก่อน ตามด้วยซ้ายและขวา (Root-Left-Right).
-- Postorder Traversal: เรียงลำดับจากซ้ายไปขวาแล้วจบที่ราก (Left-Right-Root).
+
+<img width="1000" alt="Inorder" src="https://miro.medium.com/v2/resize:fit:960/format:webp/1*nvZSw3M2Uq3EXOsc8Kd2Sw.gif">  
+1. Inorder Traversal: เรียงลำดับข้อมูลจากน้อยไปมาก โดยเรียงจากซ้าย ราก ขวา (Left-Root-Right).
+
+<img width="1000" alt="Preorder" src="https://miro.medium.com/v2/resize:fit:960/1*Swjb2CWGQh55r9m7jEyg1Q.gif"> 
+2. Preorder Traversal: เรียงลำดับโดยเริ่มจากรากก่อน ตามด้วยซ้ายและขวา (Root-Left-Right).
+
+<img width="1000" alt="Postorder" src="https://miro.medium.com/v2/resize:fit:960/format:webp/1*4KpXD6en9pbN2mgbq4XraA.gif"> 
+3. Postorder Traversal: เรียงลำดับจากซ้ายไปขวาแล้วจบที่ราก (Left-Right-Root).
 
 ### การใช้งาน:
 - Insertion: การเพิ่มข้อมูลใหม่ลงในต้นไม้ทำได้รวดเร็วและมีประสิทธิภาพ.
