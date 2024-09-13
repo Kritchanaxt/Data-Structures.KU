@@ -150,7 +150,9 @@
 
 ### AVL Tree:
 
-![AVL-Insertion-1](https://github.com/user-attachments/assets/e9c481a4-3284-4d6f-b907-26b0258a4ade)
+![AVL-Insertion-1](https://github.com/user-attachments/assets/449a3d77-4274-43d1-8ddb-9827a9efbd4f)
+<img width="924" alt="avl-tree_balnce2" src="https://github.com/user-attachments/assets/4ac19511-b95b-4d1c-b135-55341e5d6141">
+
 
 - AVL Tree เป็น Binary Search Tree ที่ปรับสมดุลต้นไม้อัตโนมัติหลังจากมีการแทรกหรือลบโหนดใหม่.
 - โครงสร้างของ AVL Tree มีการคำนวณ Balance Factor ซึ่งเป็นค่าต่างระหว่างความสูงของโหนดซ้ายและขวา โดยค่าที่อนุญาตคือ -1, 0, และ 1.
