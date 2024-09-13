@@ -141,6 +141,7 @@
 - เมื่อ Balance Factor เกินค่าที่กำหนด เช่น -2 หรือ 2 จะทำให้ต้นไม้ไม่สมดุล จึงต้องทำการหมุน (Rotation) เพื่อปรับสมดุล.
 
 <img width="1000" alt="Rotations" src="https://upload.wikimedia.org/wikipedia/commons/3/31/Tree_rotation_animation_250x250.gif">  
+
 #### การหมุน (Rotations) ใน AVL Tree:
 - Left Rotation: ใช้เมื่อต้นไม้หนักทางด้านขวา (Balance Factor < -1).
 - Right Rotation: ใช้เมื่อต้นไม้หนักทางด้านซ้าย (Balance Factor > 1).
