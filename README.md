@@ -158,7 +158,7 @@
 
 #### การหมุน (Rotations) ใน AVL Tree:
 
-<img width="800" alt="Rotations" src="https://upload.wikimedia.org/wikipedia/commons/3/31/Tree_rotation_animation_250x250.gif">  
+<img width="600" alt="Rotations" src="https://upload.wikimedia.org/wikipedia/commons/3/31/Tree_rotation_animation_250x250.gif">  
 
 - Left Rotation: ใช้เมื่อต้นไม้หนักทางด้านขวา (Balance Factor < -1).
 - Right Rotation: ใช้เมื่อต้นไม้หนักทางด้านซ้าย (Balance Factor > 1).
@@ -168,13 +168,13 @@
 ### วิธีการ Traversal:
 
 1. Inorder Traversal: เรียงลำดับข้อมูลจากน้อยไปมาก โดยเรียงจากซ้าย ราก ขวา (Left-Root-Right).
-<img width="800" alt="Inorder" src="https://miro.medium.com/v2/resize:fit:960/format:webp/1*nvZSw3M2Uq3EXOsc8Kd2Sw.gif">  
+<img width="600" alt="Inorder" src="https://miro.medium.com/v2/resize:fit:960/format:webp/1*nvZSw3M2Uq3EXOsc8Kd2Sw.gif">  
 
 2. Preorder Traversal: เรียงลำดับโดยเริ่มจากรากก่อน ตามด้วยซ้ายและขวา (Root-Left-Right).
-<img width="800" alt="Preorder" src="https://miro.medium.com/v2/resize:fit:960/1*Swjb2CWGQh55r9m7jEyg1Q.gif"> 
+<img width="600" alt="Preorder" src="https://miro.medium.com/v2/resize:fit:960/1*Swjb2CWGQh55r9m7jEyg1Q.gif"> 
 
 3. Postorder Traversal: เรียงลำดับจากซ้ายไปขวาแล้วจบที่ราก (Left-Right-Root).
-<img width="800" alt="Postorder" src="https://miro.medium.com/v2/resize:fit:960/format:webp/1*4KpXD6en9pbN2mgbq4XraA.gif"> 
+<img width="600" alt="Postorder" src="https://miro.medium.com/v2/resize:fit:960/format:webp/1*4KpXD6en9pbN2mgbq4XraA.gif"> 
 
 ### การใช้งาน:
 - Insertion: การเพิ่มข้อมูลใหม่ลงในต้นไม้ทำได้รวดเร็วและมีประสิทธิภาพ.
