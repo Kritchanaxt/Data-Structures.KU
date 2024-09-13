@@ -129,20 +129,25 @@
 - เป็นต้นไม้ที่แต่ละโหนดมีลูกได้ไม่เกิน 2 โหนด คือ โหนดซ้าย (Left Child) และโหนดขวา (Right Child).
 - โครงสร้างนี้ทำให้การค้นหาหรือการทำงานกับข้อมูลง่ายขึ้นเพราะมีลำดับชั้นชัดเจน.
 
-<img width="1000" alt="BST" src="https://skilled.dev/images/bst-visualize.gif">  
 ### Binary Search Tree (BST):
+
+<img width="1000" alt="BST" src="https://skilled.dev/images/bst-visualize.gif">  
+
 - เป็นต้นไม้ค้นหาแบบทวิภาค โดยข้อมูลที่น้อยกว่าจะถูกวางไว้ทางด้านซ้ายของโหนดปัจจุบัน ส่วนข้อมูลที่มากกว่าจะอยู่ทางด้านขวา.
 - ประสิทธิภาพในการค้นหา แทรก หรือ ลบข้อมูลคือ O(log n) ในกรณีทั่วไป แต่ในกรณีที่ต้นไม้ไม่สมดุลจะทำให้ประสิทธิภาพลดลงไปเป็น O(n).
 
-![AVL-Insertion-1](https://github.com/user-attachments/assets/e9c481a4-3284-4d6f-b907-26b0258a4ade)
 ### AVL Tree:
+
+![AVL-Insertion-1](https://github.com/user-attachments/assets/e9c481a4-3284-4d6f-b907-26b0258a4ade)
+
 - AVL Tree เป็น Binary Search Tree ที่ปรับสมดุลต้นไม้อัตโนมัติหลังจากมีการแทรกหรือลบโหนดใหม่.
 - โครงสร้างของ AVL Tree มีการคำนวณ Balance Factor ซึ่งเป็นค่าต่างระหว่างความสูงของโหนดซ้ายและขวา โดยค่าที่อนุญาตคือ -1, 0, และ 1.
 - เมื่อ Balance Factor เกินค่าที่กำหนด เช่น -2 หรือ 2 จะทำให้ต้นไม้ไม่สมดุล จึงต้องทำการหมุน (Rotation) เพื่อปรับสมดุล.
 
+#### การหมุน (Rotations) ใน AVL Tree:
+
 <img width="1000" alt="Rotations" src="https://upload.wikimedia.org/wikipedia/commons/3/31/Tree_rotation_animation_250x250.gif">  
 
-#### การหมุน (Rotations) ใน AVL Tree:
 - Left Rotation: ใช้เมื่อต้นไม้หนักทางด้านขวา (Balance Factor < -1).
 - Right Rotation: ใช้เมื่อต้นไม้หนักทางด้านซ้าย (Balance Factor > 1).
 - Left-Right Rotation: ใช้เมื่อต้นไม้หนักทางซ้ายของลูกโหนดซ้าย (สองระดับ).
@@ -150,14 +155,14 @@
 
 ### วิธีการ Traversal:
 
-<img width="1000" alt="Inorder" src="https://miro.medium.com/v2/resize:fit:960/format:webp/1*nvZSw3M2Uq3EXOsc8Kd2Sw.gif">  
 1. Inorder Traversal: เรียงลำดับข้อมูลจากน้อยไปมาก โดยเรียงจากซ้าย ราก ขวา (Left-Root-Right).
+<img width="1000" alt="Inorder" src="https://miro.medium.com/v2/resize:fit:960/format:webp/1*nvZSw3M2Uq3EXOsc8Kd2Sw.gif">  
 
-<img width="1000" alt="Preorder" src="https://miro.medium.com/v2/resize:fit:960/1*Swjb2CWGQh55r9m7jEyg1Q.gif"> 
 2. Preorder Traversal: เรียงลำดับโดยเริ่มจากรากก่อน ตามด้วยซ้ายและขวา (Root-Left-Right).
+<img width="1000" alt="Preorder" src="https://miro.medium.com/v2/resize:fit:960/1*Swjb2CWGQh55r9m7jEyg1Q.gif"> 
 
-<img width="1000" alt="Postorder" src="https://miro.medium.com/v2/resize:fit:960/format:webp/1*4KpXD6en9pbN2mgbq4XraA.gif"> 
 3. Postorder Traversal: เรียงลำดับจากซ้ายไปขวาแล้วจบที่ราก (Left-Right-Root).
+<img width="1000" alt="Postorder" src="https://miro.medium.com/v2/resize:fit:960/format:webp/1*4KpXD6en9pbN2mgbq4XraA.gif"> 
 
 ### การใช้งาน:
 - Insertion: การเพิ่มข้อมูลใหม่ลงในต้นไม้ทำได้รวดเร็วและมีประสิทธิภาพ.
