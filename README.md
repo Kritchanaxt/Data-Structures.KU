@@ -130,19 +130,17 @@
 - โครงสร้างนี้ทำให้การค้นหาหรือการทำงานกับข้อมูลง่ายขึ้นเพราะมีลำดับชั้นชัดเจน.
 
 <img width="1000" alt="BST" src="https://skilled.dev/images/bst-visualize.gif">  
-<p></p>
-
 ### Binary Search Tree (BST):
 - เป็นต้นไม้ค้นหาแบบทวิภาค โดยข้อมูลที่น้อยกว่าจะถูกวางไว้ทางด้านซ้ายของโหนดปัจจุบัน ส่วนข้อมูลที่มากกว่าจะอยู่ทางด้านขวา.
 - ประสิทธิภาพในการค้นหา แทรก หรือ ลบข้อมูลคือ O(log n) ในกรณีทั่วไป แต่ในกรณีที่ต้นไม้ไม่สมดุลจะทำให้ประสิทธิภาพลดลงไปเป็น O(n).
 
 ![AVL-Insertion-1](https://github.com/user-attachments/assets/e9c481a4-3284-4d6f-b907-26b0258a4ade)
-
 ### AVL Tree:
 - AVL Tree เป็น Binary Search Tree ที่ปรับสมดุลต้นไม้อัตโนมัติหลังจากมีการแทรกหรือลบโหนดใหม่.
 - โครงสร้างของ AVL Tree มีการคำนวณ Balance Factor ซึ่งเป็นค่าต่างระหว่างความสูงของโหนดซ้ายและขวา โดยค่าที่อนุญาตคือ -1, 0, และ 1.
 - เมื่อ Balance Factor เกินค่าที่กำหนด เช่น -2 หรือ 2 จะทำให้ต้นไม้ไม่สมดุล จึงต้องทำการหมุน (Rotation) เพื่อปรับสมดุล.
 
+<img width="1000" alt="Rotations" src="https://upload.wikimedia.org/wikipedia/commons/3/31/Tree_rotation_animation_250x250.gif">  
 #### การหมุน (Rotations) ใน AVL Tree:
 - Left Rotation: ใช้เมื่อต้นไม้หนักทางด้านขวา (Balance Factor < -1).
 - Right Rotation: ใช้เมื่อต้นไม้หนักทางด้านซ้าย (Balance Factor > 1).
