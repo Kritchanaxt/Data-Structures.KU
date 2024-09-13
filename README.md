@@ -149,8 +149,7 @@
 - ประสิทธิภาพในการค้นหา แทรก หรือ ลบข้อมูลคือ O(log n) ในกรณีทั่วไป แต่ในกรณีที่ต้นไม้ไม่สมดุลจะทำให้ประสิทธิภาพลดลงไปเป็น O(n).
 
 ### AVL Tree:
-
-![AVL-Insertion-1](https://github.com/user-attachments/assets/449a3d77-4274-43d1-8ddb-9827a9efbd4f)
+![avl-tree](https://github.com/user-attachments/assets/a1b4e587-8d87-4355-ac6c-11421a718296)
 <img width="924" alt="avl-tree_balnce2" src="https://github.com/user-attachments/assets/4ac19511-b95b-4d1c-b135-55341e5d6141">
 
 
