@@ -120,7 +120,7 @@
 - **Dequeue/delete (นำข้อมูลออก):** นำข้อมูลจากหัวคิวออก
 - **Display/peek:** แสดงข้อมูลทั้งหมดในคิว
 
-<img width="1000"  alt="Queue2" src="https://github.com/user-attachments/assets/a6bf85d8-2f0f-4713-8d0e-bc5edcc856e9">
+<img width="600"  alt="Queue2" src="https://github.com/user-attachments/assets/a6bf85d8-2f0f-4713-8d0e-bc5edcc856e9">
 
 ### กรณีการใช้งาน Queue
 - **การจัดการคิวของงาน:** ในระบบปฏิบัติการ การจัดการกับงานที่ต้องทำให้เสร็จตามลำดับ
