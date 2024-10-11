@@ -203,7 +203,7 @@
 - **กราฟ (Graphs)** เป็นโครงสร้างข้อมูลที่ประกอบด้วยชุดของโหนด (vertices) และเส้นเชื่อมระหว่างโหนด (edges) ซึ่งใช้ในการแทนความสัมพันธ์ต่างๆ ในการประมวลผลข้อมูล
 
   
-<img width="500" alt="Screenshot 2567-09-19 at 16 26 27" src="https://github.com/user-attachments/assets/fa8c1871-8cc8-4dce-be6f-8ad97d78d91e"><img width="510" alt="Screenshot 2567-09-19 at 16 26 37" src="https://github.com/user-attachments/assets/9e40f798-de54-47c5-9a9d-227737b5835c">
+<img width="500" alt="Screenshot 2567-09-19 at 16 26 27" src="https://github.com/user-attachments/assets/fa8c1871-8cc8-4dce-be6f-8ad97d78d91e"><img width="500" alt="Screenshot 2567-09-19 at 16 26 37" src="https://github.com/user-attachments/assets/9e40f798-de54-47c5-9a9d-227737b5835c">
 
 
 
