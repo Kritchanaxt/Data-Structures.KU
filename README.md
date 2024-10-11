@@ -329,7 +329,7 @@
 
 <img width="1272" alt="loc, left" src="https://github.com/user-attachments/assets/317c2a1a-b62f-4c0a-81bc-4514fb15abce">
 
-**ระเบิด Array**
+#### ระเบิด Array
 - รอบ 1 = 25,10,18,27,36,45
 - รอบ 2 = 36,45
 - รอบ 3 = 18,10,25
