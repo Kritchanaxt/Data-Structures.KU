@@ -395,7 +395,7 @@ void printAllElements(int arr[], int n) {
     }
 }
 ```
-3. O(n) - Linear Time: เวลาในการทำงานเพิ่มขึ้นตามขนาดของข้อมูล เช่น การวนลูปผ่านสมาชิกในอาร์เรย์ทั้งหมด
+3.	O(n^2) - Quadratic Time: เวลาในการทำงานเพิ่มขึ้นตามกำลังสองของขนาดข้อมูล เช่น การวนซ้อนลูปสองชั้น
 ```
 void printAllPairs(int arr[], int n) {
     for (int i = 0; i < n; i++) {
