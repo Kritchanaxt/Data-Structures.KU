@@ -7,7 +7,7 @@
    - Linked List ใช้ โหนด (nodes) ที่เชื่อมโยงกันผ่าน ตัวชี้ (pointers).
 
 ### Stack, Queue, Tree, และ Graph
--เป็นโครงสร้างข้อมูลขั้นสูง (advanced data structures) ที่ถูกสร้างขึ้นจากการใช้ Array หรือ Linked List
+- เป็นโครงสร้างข้อมูลขั้นสูง (advanced data structures) ที่ถูกสร้างขึ้นจากการใช้ Array หรือ Linked List
   - Stack: สร้างขึ้นจาก Array หรือ Linked List โดยใช้หลักการ LIFO (Last In, First Out).
   - Queue: ใช้หลักการ FIFO (First In, First Out).
   - Tree: เป็นโครงสร้างแบบลำดับชั้น (hierarchical) ที่ใช้โหนดและตัวชี้ในการสร้างความสัมพันธ์ระหว่างข้อมูล.
