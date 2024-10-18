@@ -89,7 +89,8 @@ void display(Stack* stack) {
         printf("%d <-> ", current->data);
         current = current->next;
     } while (current != stack->top);
-    printf("(head)\n");
+    printf("(back to top)\n");
+
 }
 
 int main() {

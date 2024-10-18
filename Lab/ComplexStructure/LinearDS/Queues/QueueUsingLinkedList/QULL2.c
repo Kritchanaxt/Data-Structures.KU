@@ -70,7 +70,7 @@ int peek(Queue* queue) {
     return queue->front->data;
 }
 
-// Display the queue contents
+// Display the queue contents with arrows indicating the linked list structure
 void display(Queue* queue) {
     if (isEmpty(queue)) {
         printf("Queue is empty.\n");
@@ -79,10 +79,13 @@ void display(Queue* queue) {
     Node* current = queue->front;
     printf("Queue contents: ");
     while (current != NULL) {
-        printf("%d ", current->data);
+        printf("%d", current->data);
+        if (current->next != NULL) {
+            printf(" <-> ");  // Display arrows to indicate the two-way link
+        }
         current = current->next;
     }
-    printf("\n");
+    printf(" <-> NULL\n");  // Indicate the end of the list
 }
 
 int main() {

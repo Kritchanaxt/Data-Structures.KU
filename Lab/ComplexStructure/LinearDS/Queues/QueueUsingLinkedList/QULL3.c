@@ -80,10 +80,13 @@ void display(Queue* queue) {
     Node* current = queue->front;
     printf("Queue contents: ");
     do {
-        printf("%d ", current->data);
+        printf("%d", current->data);
         current = current->next;
+        if (current != queue->front) {
+            printf(" -> ");  // Add arrow to show linkage
+        }
     } while (current != queue->front);
-    printf("\n");
+    printf(" -> (back to front)\n");  // Indicate circular connection
 }
 
 int main() {
@@ -103,3 +106,4 @@ int main() {
 
     return 0;
 }
+

@@ -78,7 +78,6 @@ int peek(Queue* queue) {
     return queue->front->data;
 }
 
-// Display the queue contents
 void display(Queue* queue) {
     if (isEmpty(queue)) {
         printf("Queue is empty.\n");
@@ -87,11 +86,15 @@ void display(Queue* queue) {
     Node* current = queue->front;
     printf("Queue contents: ");
     do {
-        printf("%d ", current->data);
+        printf("%d", current->data);
+        if (current->next != queue->front) {
+            printf(" <-> "); // Show arrows to indicate both directions
+        }
         current = current->next;
     } while (current != queue->front);
-    printf("\n");
+    printf(" <-> (back to front)\n");
 }
+
 
 int main() {
     Queue queue;
