@@ -1,12 +1,12 @@
 # Data Structures in C 
 #### Data Structures คือ วิธีการจัดเก็บและจัดการข้อมูลในคอมพิวเตอร์เพื่อให้สามารถเข้าถึงและแก้ไขข้อมูลได้อย่างมีประสิทธิภาพ ตัวอย่างของโครงสร้างข้อมูล ได้แก่ อาร์เรย์, ลิงก์ลิสต์, สแตก, คิว, และต้นไม้
 
-### Array และ Linked List
+## Array และ Linked List
 - เป็นโครงสร้างข้อมูลพื้นฐาน (basic data structures) ที่ใช้ในการจัดเก็บข้อมูล เป็นลำดับ (sequential)
    - Array ใช้การจัดเก็บข้อมูลในหน่วยความจำที่ต่อเนื่อง
    - Linked List ใช้ โหนด (nodes) ที่เชื่อมโยงกันผ่าน ตัวชี้ (pointers).
 
-### Stack, Queue, Tree, และ Graph
+## Stack, Queue, Tree, และ Graph
 - เป็นโครงสร้างข้อมูลขั้นสูง (advanced data structures) ที่ถูกสร้างขึ้นจากการใช้ Array หรือ Linked List
   - Stack: สร้างขึ้นจาก Array หรือ Linked List โดยใช้หลักการ LIFO (Last In, First Out).
   - Queue: ใช้หลักการ FIFO (First In, First Out).
