@@ -164,6 +164,7 @@ data_type array_name[array_size];
 
 ## General Trees
 <img width="1000" alt="GR" src="https://github.com/user-attachments/assets/3c8fc1d8-3218-4f76-9410-b3a7843f4f1a">  
+
 - ต้นไม้ทั่วไป เป็นต้นไม้ที่แต่ละโหนดสามารถมีลูกได้หลายโหนด ไม่จำกัดจำนวน มักใช้ในการแสดงโครงสร้างแบบลำดับชั้น เช่น แผนผังองค์กรหรือระบบไฟล์
 
 ## Binary Tree
