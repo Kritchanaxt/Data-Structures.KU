@@ -377,12 +377,12 @@ data_type array_name[array_size];
 - กราฟแบบไม่มีน้ำหนัก (Unweighted Graph): ไม่มีค่าน้ำหนักบนเส้นเชื่อม เส้นเชื่อมจะมีค่าเท่ากันทั้งหมด
 
 ## 3. การแทนกราฟ (Graph Representation)
-- กราฟสามารถแทนได้หลายวิธี
+#### กราฟสามารถแทนได้หลายวิธี
   - Adjacency Matrix: เป็นเมทริกซ์สองมิติที่แสดงความสัมพันธ์ระหว่างโหนด ถ้าโหนด i และ j มีเส้นเชื่อม เมทริกซ์จะมีค่าเป็น 1 (หรือเป็นค่าน้ำหนักในกรณีของกราฟแบบมีน้ำหนัก) ถ้าไม่มีเส้นเชื่อมจะเป็น 0
   - Adjacency List: เป็นลิสต์ที่เก็บลิสต์ของโหนดที่เชื่อมต่อกัน ซึ่งมีประสิทธิภาพมากกว่าสำหรับกราฟขนาดใหญ่
 
 ## 4. การค้นหากราฟ (Graph Traversal)
-- การเดินผ่านโหนดในกราฟสามารถทำได้สองวิธีหลัก
+#### การเดินผ่านโหนดในกราฟสามารถทำได้สองวิธีหลัก
   - Breadth-First Search (BFS): การค้นหาแบบกว้าง จะเริ่มต้นจากโหนดหนึ่งและสำรวจโหนดทั้งหมดที่อยู่ใกล้เคียงก่อน แล้วจึงขยายไปยังโหนดที่อยู่ไกลขึ้น
   - Depth-First Search (DFS): การค้นหาแบบลึก จะสำรวจเส้นทางจากโหนดหนึ่งไปจนสุดทางแล้วย้อนกลับมาตรวจสอบเส้นทางที่ยังไม่ได้สำรวจ
 
@@ -403,13 +403,14 @@ data_type array_name[array_size];
   - ใช้เส้นเชื่อม (Edges) ที่มีน้ำหนักรวมต่ำที่สุด
   - MST มีประโยชน์ในการแก้ปัญหาต่างๆ เช่นการออกแบบเครือข่ายที่มีค่าใช้จ่ายต่ำที่สุด
 
-<img width="1097" alt="Screenshot 2567-10-22 at 22 14 07" src="https://github.com/user-attachments/assets/7d11bf9a-48f5-4687-bb98-aded40716a98">
 
 ## 1. Prim's Algorithm (น้อยสุดไปทางนั้นและเช็คทั้งหมด)
 
+<img width="1097" alt="Screenshot 2567-10-22 at 22 14 07" src="https://github.com/user-attachments/assets/7d11bf9a-48f5-4687-bb98-aded40716a98">
 <img width="302" alt="Screenshot 2567-10-22 at 22 14 18" src="https://github.com/user-attachments/assets/7a61a37a-2e71-4213-bf1a-6b33312e086c"> <img width="311" alt="Screenshot 2567-10-22 at 22 14 23" src="https://github.com/user-attachments/assets/d8c4fb3b-4afb-4948-a883-76607699991a"> <img width="222" alt="Screenshot 2567-10-22 at 22 14 32" src="https://github.com/user-attachments/assets/8a35d1fe-68ac-46a2-8c7b-a0d42cd78160"> <img width="313" alt="Screenshot 2567-10-22 at 22 14 38" src="https://github.com/user-attachments/assets/707de2d9-4958-4c4c-979e-f5a84b4abab3"> <img width="316" alt="Screenshot 2567-10-22 at 22 14 43" src="https://github.com/user-attachments/assets/cb070ed7-721b-4a14-a9a6-21cde1e8c0a0">
 
-### หลักการ: ใช้เพื่อหาต้นไม้ที่ครอบคลุมทั้งหมด (Minimum Spanning Tree) โดยเริ่มจากจุดยอดหนึ่งแล้วค่อย ๆ ขยายไปยังจุดยอดข้างเคียงที่มีน้ำหนักเส้นเชื่อมต่ำที่สุดจนกว่าจะครอบคลุมทุกจุดยอดในกราฟ
+### หลักการ: 
+- ใช้เพื่อหาต้นไม้ที่ครอบคลุมทั้งหมด (Minimum Spanning Tree) โดยเริ่มจากจุดยอดหนึ่งแล้วค่อย ๆ ขยายไปยังจุดยอดข้างเคียงที่มีน้ำหนักเส้นเชื่อมต่ำที่สุดจนกว่าจะครอบคลุมทุกจุดยอดในกราฟ
 
 ### ขั้นตอน:
 
@@ -424,10 +425,6 @@ data_type array_name[array_size];
    - เพิ่มจุดยอดที่เชื่อมต่อใหม่
    - ทำซ้ำขั้นตอนที่ 2 จนกว่าจะเชื่อมต่อทุกจุดยอดในกราฟ
 
-### สรุป
-- Prim's Algorithm ช่วยสร้างต้นไม้ที่ครอบคลุมทั้งหมดในกราฟอย่างมีประสิทธิภาพ
-
-หากต้องการข้อมูลเพิ่มเติมหรือมีคำถามอื่น ๆ แจ้งได้เลย!
 
 ## 2. Kruskal's Algorithm (อัลกอริทึมของครัสคาล)
 
@@ -435,7 +432,8 @@ data_type array_name[array_size];
 <img width="1183" alt="Screenshot 2567-10-22 at 22 15 25" src="https://github.com/user-attachments/assets/7059bf83-ff03-4548-b4f4-778782a1b2c3"> <img width="1125" alt="Screenshot 2567-10-22 at 22 15 31" src="https://github.com/user-attachments/assets/0a1bfb5b-05df-4411-8789-487e4f1473d5"> <img width="1005" alt="Screenshot 2567-10-22 at 22 15 37" src="https://github.com/user-attachments/assets/3221ae2e-c8da-4140-8ee6-792da871cd4a"> <img width="935" alt="Screenshot 2567-10-23 at 00 00 39" src="https://github.com/user-attachments/assets/21fae585-0bc6-4cd5-8c0e-ec5f64328c09"> <img width="1226" alt="Screenshot 2567-10-22 at 22 16 03" src="https://github.com/user-attachments/assets/bf811218-451a-41d6-b7f8-3e71e4b74a92">
 
 
-### หลักการ: ใช้เพื่อหาต้นไม้ที่ครอบคลุมทั้งหมด (Minimum Spanning Tree) โดยการเลือกเส้นเชื่อม (Edges) ที่มีน้ำหนักน้อยที่สุดโดยไม่สร้างวงจร
+### หลักการ: 
+- ใช้เพื่อหาต้นไม้ที่ครอบคลุมทั้งหมด (Minimum Spanning Tree) โดยการเลือกเส้นเชื่อม (Edges) ที่มีน้ำหนักน้อยที่สุดโดยไม่สร้างวงจร
 
 ### ขั้นตอน
 
@@ -490,19 +488,21 @@ data_type array_name[array_size];
 <img width="1190" alt="Screenshot 2567-10-22 at 22 16 17" src="https://github.com/user-attachments/assets/ca947728-fdee-4d87-b7b1-0d9b4d0c620a"> <img width="1197" alt="Screenshot 2567-10-22 at 22 16 25" src="https://github.com/user-attachments/assets/1b3c0773-b66d-4358-a2f5-c9251751a131"> <img width="1236" alt="Screenshot 2567-10-22 at 22 19 04" src="https://github.com/user-attachments/assets/4566ebf7-0936-45a6-91ef-79e28332cbbf"> <img width="1163" alt="Screenshot 2567-10-22 at 22 19 15" src="https://github.com/user-attachments/assets/12ecc44d-46ae-4ed5-9d0c-c3c3b02a1410">
 <img width="1209" alt="Screenshot 2567-10-22 at 22 19 22" src="https://github.com/user-attachments/assets/db9d2ffa-8b32-4e5a-b98a-21f9eb7ee258">
 
-### หลักการ: ค้นหาเส้นทางที่มีค่าใช้จ่ายต่ำสุดจากจุดเริ่มต้นไปยังจุดหมาย
-1. เริ่มต้น:
+### หลักการ: 
+- ค้นหาเส้นทางที่มีค่าใช้จ่ายต่ำสุดจากจุดเริ่มต้นไปยังจุดหมาย
+
+#### 1. เริ่มต้น:
   - กำหนดค่าเริ่มต้นให้กับจุดเริ่มต้น (A):
   - ระยะทางจาก A ไป A = 0
   - ระยะทางจาก A ไปยังจุดอื่น ๆ (B, C) = ∞ (ไม่รู้ระยะทาง)
-2. ตั้งค่าจุดที่เยี่ยมชม:
+#### 2. ตั้งค่าจุดที่เยี่ยมชม:
   - ใช้โครงสร้างข้อมูล (เช่น priority queue) เพื่อเก็บจุดที่ยังไม่ได้เยี่ยมชม และระยะทางปัจจุบันที่มีค่าใช้จ่ายต่ำสุด
-3. เยี่ยมชมจุดที่มีค่าใช้จ่ายต่ำสุด:
+#### 3. เยี่ยมชมจุดที่มีค่าใช้จ่ายต่ำสุด:
   - เลือกจุดที่มีค่าใช้จ่ายต่ำสุด (เช่น A ในรอบแรก)
-4. สำหรับทุกจุดที่เชื่อมต่อ (เช่น B, C) ให้คำนวณระยะทางใหม่:
+#### 4. สำหรับทุกจุดที่เชื่อมต่อ (เช่น B, C) ให้คำนวณระยะทางใหม่:
   - ระยะทางใหม่ = ระยะทางจาก A + น้ำหนักระยะทางไปยังจุดที่เชื่อมต่อ
   - อัปเดตระยะทางถ้าค่าใหม่ต่ำกว่าค่าปัจจุบัน
-5. ทำซ้ำ:
+#### 5. ทำซ้ำ:
   - ทำซ้ำขั้นตอนนี้จนกว่าจะเยี่ยมชมทุกจุดในกราฟ
 
 ### ตัวอย่าง
