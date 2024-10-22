@@ -465,6 +465,7 @@ data_type array_name[array_size];
 - left = < น้อยกว่า
 - right = > มากกว่า
 - log = Located อยู่กับที่
+- log เก็บค่าขยับ rigth, left
 
 #### Concept 
   - แสกนขวาไปซ้าย
