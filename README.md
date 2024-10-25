@@ -870,14 +870,14 @@ D   E   F
 ## ประเภทของ Big O Notation
 1. O(1) - Constant Time: เวลาในการทำงานไม่เปลี่ยนแปลงตามขนาดของข้อมูล เช่น การเข้าถึงสมาชิกในอาร์เรย์โดยใช้ดัชนี
 
-```
+```C
 int getFirstElement(int arr[]) {
     return arr[0]; // O(1)
 }
 ```
 
 2. O(n) - Linear Time: เวลาในการทำงานเพิ่มขึ้นตามขนาดของข้อมูล เช่น การวนลูปผ่านสมาชิกในอาร์เรย์ทั้งหมด
-```
+```C
 void printAllElements(int arr[], int n) {
     for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]); // O(n)
@@ -885,7 +885,7 @@ void printAllElements(int arr[], int n) {
 }
 ```
 3.	O(n^2) - Quadratic Time: เวลาในการทำงานเพิ่มขึ้นตามกำลังสองของขนาดข้อมูล เช่น การวนซ้อนลูปสองชั้น
-```
+```C
 void printAllPairs(int arr[], int n) {
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
@@ -895,7 +895,7 @@ void printAllPairs(int arr[], int n) {
 }
 ```
 4. O(log n) - Logarithmic Time: เวลาในการทำงานเพิ่มขึ้นตามลอการิทึมของขนาดข้อมูล เช่น การค้นหาแบบ Binary Search
-```
+```C
 int binarySearch(int arr[], int n, int target) {
     int left = 0, right = n - 1;
     while (left <= right) {
@@ -912,7 +912,7 @@ int binarySearch(int arr[], int n, int target) {
 }
 ```
 5. O(n log n) - Linearithmic Time: เวลาในการทำงานเพิ่มขึ้นเป็นเส้นตรงคูณกับลอการิทึมของขนาดข้อมูล เช่น การเรียงลำดับแบบ Merge Sort หรือ Quick Sort
-```
+```C
 void mergeSort(int arr[], int left, int right) {
     if (left < right) {
         int mid = left + (right - left) / 2;
@@ -923,7 +923,7 @@ void mergeSort(int arr[], int left, int right) {
 }
 ```
 6. O(2^n) - Exponential Time: เวลาในการทำงานเพิ่มขึ้นเป็นสองเท่าของขนาดข้อมูล เช่น อัลกอริทึมที่เกี่ยวกับการคำนวณฟีโบนัชชี่แบบเรียกซ้ำ
-```
+```C
 int fibonacci(int n) {
     if (n <= 1) {
         return n; // O(2^n)
@@ -932,7 +932,7 @@ int fibonacci(int n) {
 }
 ```
 7. O(n!) - Factorial Time: เวลาในการทำงานเพิ่มขึ้นตามแฟกทอเรียลของขนาดข้อมูล เช่น การจัดเรียงแบบ Permutation
-```
+```C
 void permute(char* str, int left, int right) {
     if (left == right) {
         printf("%s\n", str); // O(n!)
